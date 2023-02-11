@@ -1,0 +1,45 @@
+
+.registrationForm,.loginForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  gap: 2vw  ;
+  height: 100vh;
+}
+
+.input{
+  width: 20vw;
+}
+.title
+{
+  font-weight: bold;
+}
+
+.hobbiesCheckBoxes{
+  display: flex;
+  flex-flow: row wrap;
+  width: 20vw;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.genderRadio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#hobby{
+  margin: 0 0.5vw;
+}
+
+.details{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0 40%;
+}
